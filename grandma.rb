@@ -15,6 +15,7 @@ require 'pry'
 def speak_to_grandma(phrase)
   if(phrase == phrase.upcase) #TRUE shouting
     if(phrase == "I Love you grandma!".upcase) #TRUE shouting TRUE love
+    binding.pry
      puts "I LOVE YOU TOO PUMPKIN!"
     else #TRUE shouting !TRUE love
      puts "NO, NOT SINCE 1938!"
