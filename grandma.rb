@@ -19,6 +19,8 @@ def speak_to_grandma(phrase)
      puts "I LOVE YOU TOO PUMPKIN!"
     else #TRUE shouting !TRUE love
      puts "NO, NOT SINCE 1938!"
+    end
   else #!TRUE shouting
     puts "HUH?! SPEAK UP, SONNY"
+  end
 end
