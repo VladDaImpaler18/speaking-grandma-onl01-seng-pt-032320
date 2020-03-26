@@ -12,11 +12,11 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(phrase)
-  if(phrase == phrase.upcase) #if shouting
-    if(phrase == "I Love you grandma!".upcase) #shouting love
+  if(phrase == phrase.upcase) #if TRUE shouting
+    if(phrase == "I Love you grandma!".upcase) #TRUE shouting TRUE love
      puts "I LOVE YOU TOO PUMPKIN!"
-    elsif(phrase != phrase.upcase) #Shouting but not love
+    elsif(phrase != phrase.upcase) #TRUE shouting !TRUE love
      puts "NO, NOT SINCE 1938!"
-  else
+  else #!TRUE shouting
     puts "HUH?! SPEAK UP, SONNY"
 end
